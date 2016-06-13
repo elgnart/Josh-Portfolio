@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact a{
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity: .5;
+}
+
+.contact a:hover {
+    color:white;
+    background-color: #D31A30;
+    opacity: 1;
+}
+
+.contact a:visited {
+    padding-bottom: 16px;
+    color:white;
+    text-decoration: none;
+}
+
+.contact img{
+  margin-bottom: 20px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 500px;
+}
