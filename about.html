@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/about.css">
 
-
 </head>
+
 <body>
 
 
@@ -20,8 +20,8 @@
 			<div class="nav">
 				<ul>
 					<li><a href="portfolio.html">portfolio</a></li>
-					<li><a href="about.html">about</a></li>
-					<li><a href="contact.html">contact</a></li>
+					<li><a href="about.html" id="activenav">about</a></li>
+					<li><a href="contact2.html">contact</a></li>
 				</ul>
 			</div>
 		</header>
@@ -44,16 +44,12 @@
 				In my spare time, I’m a fan of all things Cleveland, backpacking, crossword puzzles, and Larry David. 
 	 			</br> </br></br> </br>
 
-				<a href="resume.pdf" target="blank"><button>Resume</button></a>
+				<a href="img/resume.pdf" target="blank"><button>Resume</button></a>
+
 			</p>	
 		</div>
 
-
-
-
-			<div class="picture">
-				<img src="img/profilepic.png" alt="">
-			</div>
+			<img class="picture" src="img/profilepic.png" alt="">
 			
 	</section>
 
@@ -65,56 +61,49 @@
 	</section>
 
 
-	<section class="map">
+	<div class="map">
 
-
-		<!-- <img src="img/chicago.png" class="citypop" alt=""> -->
-<!-- 		<img src="img/lux.png" class="citypop" alt="">
-		<img src="img/cleveland.png" class="citypop" alt="">
-		<img src="img/soko.png" class="citypop" alt="">
-		<img src="img/ukraine.png" class="citypop" alt="">
-		<img src="img/israel.png" class="citypop" alt="">
- -->
-
-		<img src="img/mapdot.png" alt="" usemap="#Map" />
-		<map name="Map" id="Map">
+		<map name="Map" id="map">
 			
-			<div class="tooltip" id="dot1">
-		    <area class="thumb1" alt="" title="test tooltip chicago" href="#" shape="rect" coords="235,320,247,332" /><!-- <span class="tooltiptext">Tooltip text here, can be a long sentence.</span> -->
-			</div>
-		    <!-- <img src="img/chicago.png" alt="" class="chi"> -->
-
-		    <div class="tooltip" id="dot2">
-		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext">Tooltip text here for cleveland.</span>
-			</div>
+		<div class="mapcontainer">
+			<img src="img/mapdot.png" alt="" usemap="#Map" />
 
 
-		    <div class="tooltip" id="dot3">
-		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext">Tooltip text here for lux.</span>
+		    <div class="tooltip1" id="dot1">
+		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="235,320,247,332" /><span class="tooltiptext1"><img src="img/chicago.png" class="citypop" alt=""></span>
 			</div>
 
-		    <div class="tooltip" id="dot4">
-		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext">Tooltip text here for lviv.</span>
+		    <div class="tooltip2" id="dot2">
+		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext2"><img src="img/cleveland.png" class="citypop" alt=""></span>
 			</div>
 
-		    <div class="tooltip" id="dot5">
-		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext">Tooltip text here for israel.</span>
+		    <div class="tooltip3" id="dot3">
+		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext3"><img src="img/lux.png" class="citypop" alt=""></span>
 			</div>
 
-		    <div class="tooltip" id="dot6">
-		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext">Tooltip text here for soko.</span>
+		    <div class="tooltip4" id="dot4">
+		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext4"><img src="img/soko.png" class="citypop" alt=""></span>
+			</div>
+
+		    <div class="tooltip5" id="dot5">
+		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext5"><img src="img/ukraine.png" class="citypop" alt=""></span>
+			</div>
+
+		    <div class="tooltip6" id="dot6">
+		    <area class="thumb" alt="" title="" href="#" shape="rect" coords="257,332,270,346" /><span class="tooltiptext6"><img src="img/israel.png" class="citypop" alt=""></span>
 			</div>
 		
+		</div>
 		</map>
 
 
-	</section>
+	</div>
 
-
-	<footer>
-		<small>Fully designed, illustrated, and coded by Josh Trangle</small>
-		<small> &copy2016 • All rights reserved</small>
-	</footer>
+<!-- <div class="portfooter">
+<footer>
+	<small>Fully designed, illustrated, and coded by Josh Trangle <br> &copy2016 • All rights reserved</small>
+</footer>
+</div> -->
 
 </body>
 </html>
