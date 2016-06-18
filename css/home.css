@@ -881,6 +881,10 @@ GLANCE
   font-size: 25px;
 }
 
+.glancedesprin{
+  width: 60%;
+}
+
 figcaption{
   text-align: center;
   font-size: 14px;
@@ -977,7 +981,7 @@ figcaption{
 }
 
 .glance_insights{
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #voice_par{
