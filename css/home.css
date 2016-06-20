@@ -5,6 +5,10 @@
 }
 */
 
+
+
+
+
 /*TYPOGRAPHY*/
 
 
@@ -133,8 +137,11 @@ footer{
   text-align: left;
   margin: 0;
   font-weight: 100;
-
   }
+
+#josh{
+  /*color: #E4105C;*/
+}
 
 .homepage h2{
   font-size: 40px;
@@ -213,19 +220,25 @@ footer{
 }
 
 #logo{
-  width: 20px;
+  width: 150px;
   float: left;
   margin: 20px;
   margin-left: 5%;
-  color: white;
+  color: #E4105C;
   text-decoration: none;
-  top: 0
+  top: 0;
+  font-weight: 800;
 }
+
+#trangle{
+  color: white;
+  }
 
 .nav{
   list-style-type: none;
   display: inline;
   margin: 20px;
+  margin-left: 0;
   float: right;
 }
 
@@ -343,7 +356,7 @@ footer{
   height: 500px;
   padding-top: 100px;
   margin-top: 100px;
-  display: relative;
+  position: relative;
 }
 
 .intro p{
@@ -352,12 +365,17 @@ footer{
   margin: 0px 5% 0px 20%;
 }
 
+.intro a{
+  color: black;
+  text-decoration: underline;
+}
+
 .picture {
   float: right;
   width: 20%;
   margin-right: 20%;
   position: relative;
-
+  margin-top: 20px;
 }
 
 .bio button{
@@ -374,6 +392,7 @@ footer{
 
 .inspiration h1{
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 
@@ -396,11 +415,11 @@ footer{
 }
 
 #map{
-  width: 100%;
+/*  width: 100%;
   margin: 0 auto;
   display: block;
   position: relative;
-  background-color: yellow;
+  background-color: yellow;*/
 }
 
 map{
@@ -684,7 +703,7 @@ FLEXX
 }
 
 .desprinc_flexx{
-  width: 70%;
+  width: 60%;
   margin-left: 15%;
   text-align: center;
 }
@@ -720,6 +739,10 @@ FLEXX
 
 #define_flexx ul li{
   color: black;
+  }
+
+#define_flexx img{
+  width: 25%;
   }
 
 .flexx_screenshots{
@@ -882,7 +905,7 @@ GLANCE
 }
 
 .glancedesprin{
-  width: 60%;
+  width: 40%;
 }
 
 figcaption{
@@ -1051,3 +1074,73 @@ GLANCE
 }
 
 
+
+
+
+/*
+
+
+MEDIA QUERIES
+
+
+*/
+
+/*ABOUT PAGE MEDIA QUERIES*/
+@media screen and (max-width: 1100px) {
+  .intro p{
+    width: 60%;
+    display: block;
+  }
+
+  .picture{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+}   
+
+.bio{
+      padding-bottom: 400px;
+    }
+
+
+
+@media screen and (max-width: 1700) {
+
+
+/*.mapcontainer{
+  margin-left: 0%;
+}
+*/
+
+
+
+/*
+
+.map{
+    position: absolute;
+    margin: 0 auto; 
+    text-align: center;
+    width: 30%;
+    background-color: pink;
+    margin-right: 50px;
+}
+
+#map{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  background-color: yellow;
+}
+
+map{
+  position: absolute;
+}
+
+.mapcontainer{
+  position: absolute;
+  width: 1036px;
+  margin-left: 75%;
+}
+*/
