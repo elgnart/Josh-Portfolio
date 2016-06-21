@@ -11,31 +11,6 @@
 
 /*TYPOGRAPHY*/
 
-
-/*@font-face {
-  font-family: 'BrandonGrotesque-bold';
-  src: url ('Brandon_bld.otf') format('opentype');
-}
-
-
-@font-face {
-  font-family: 'BrandonGrotesque-medium';
-  src: url ('Brandon_med.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'BrandonGrotesque-Light';
-  src: url ('Brandon_light.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'BrandonGrotesque-block';
-  src: url ('Brandon_blk.otf') format('opentype');
-}*/
-
-
-
-
 @font-face {
     font-family: 'brandon_grotesquebold';
     src: url('brandon_bld-webfont.woff2') format('woff2'),
